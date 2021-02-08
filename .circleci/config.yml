@@ -12,8 +12,8 @@ jobs:
       - python/install-deps
       - python/save-cache
       - run:
-          name: run lint
-          command: make lint
+          name: test python
+          command: python hello.py
 
 workflows:
   main:
